@@ -1,0 +1,156 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+    text-decoration: none;
+} 
+
+.picofme{
+    position: absolute; 
+    max-width:25%;
+    height:auto;
+    top:  25%; 
+    left: 63%;
+    border-radius: 20px; 
+    padding: 1rem 1rem; 
+    background: black; 
+}
+
+h3{
+    position: absolute; 
+    top:  25%; 
+    left: 5%; 
+    color: white; 
+    background: black; 
+    border-radius: 20px; 
+    padding: 0.5rem 1rem; 
+    font-size: 1.7rem; 
+    
+   
+}
+
+span{
+    font-size: 1.5rem; 
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+
+.infome{
+    position: absolute; 
+    top:  33%; 
+    left: 5%;
+    width: 35%; 
+    background: black; 
+    color: white; 
+    border-radius: 20px; 
+    padding: 1.3rem 1rem; 
+     
+}
+
+body{
+    background-image: url(cool.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+@media(max-width:950px){
+    
+    .infome{
+       position: absolute; 
+       top:  33%; 
+       left: 5%;
+       width: 90%; 
+       background: black; 
+       color: white; 
+       border-radius: 20px; 
+       padding: 1.3rem 1rem; 
+    }
+
+
+    .picofme{
+        position: absolute; 
+        max-width:15%;
+        height:auto;
+        top:  11%; 
+        left: 80.5%;
+        border-radius: 20px; 
+        padding: 1rem 1rem; 
+        background: black; 
+    }
+    
+}
+
+@media(max-width:507px){
+
+
+    h3{
+        position: absolute; 
+        top:  15%; 
+        left: 5%; 
+        color: white; 
+        background: black; 
+        border-radius: 20px; 
+        padding: 0.5rem 1rem; 
+        font-size: 1.7rem; 
+        
+       
+    }
+
+    .infome{
+        position: absolute; 
+        top:  23%; 
+        left: 5%;
+        width: 90%; 
+        background: black; 
+        color: white; 
+        border-radius: 20px; 
+        padding: 1.3rem 1rem; 
+    }
+
+}
+
+
+@media(max-width:427px){
+
+    h3{
+        position: absolute; 
+        top:  12%; 
+        left: 5%; 
+        color: white; 
+        background: black; 
+        border-radius: 20px; 
+        padding: 0.5rem 1rem; 
+        font-size: 1.7rem; 
+        
+       
+    }
+
+    .infome{
+        position: absolute; 
+        top:  20%; 
+        left: 5%;
+        width: 90%; 
+        background: black; 
+        color: white; 
+        border-radius: 20px; 
+        padding: 1.3rem 1rem; 
+    }
+     
+
+    .picofme{
+        position: absolute; 
+        max-width:15%;
+        height:auto;
+        top:  0%; 
+        left: 83%;
+        border-radius: 20px; 
+        padding: 1rem 1rem; 
+        background: black; 
+    }
+    
+}

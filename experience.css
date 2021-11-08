@@ -1,0 +1,78 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+    text-decoration: none;
+} 
+
+.headr{
+    
+    position: absolute; 
+    top: 25%; 
+    left: 40%;
+    color: white;
+    font-size: 1.5rem; 
+}
+ 
+.with{
+    position: absolute;
+    top: 28%;
+    left: 51%; 
+    color: white;
+    font-size: 1.5rem; 
+    
+}
+
+body{
+    background-image: url(city.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+.pice{
+    
+    width: 100%; 
+    
+    
+}
+
+@media(max-width: 890px){
+    
+    .headr{
+        position: absolute; 
+        top: 17%; 
+        left: 32%;
+
+    }
+
+    .with{
+        position: absolute;
+        top: 21%;
+        left: 51%; 
+    }
+}
+
+section{
+    position:absolute; 
+    top: 60%;
+    left: 50%; 
+    transform: translate( -50%, -50%);
+    padding: 40px 20px; 
+    color: white; 
+    background: black;
+    opacity: 80%;
+    border-radius: 20px; 
+ 
+}
+
+
+@media(max-width: 890px){
+    section{
+        width:100%; 
+        padding: 5px 5px; 
+        top: 51%;
+    }
+}
+
